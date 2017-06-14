@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fit-Crime-Table</title>
+</head>
+<link rel="stylesheet" type="text/css" href="./resource/main.css">
+<body>
+	<div class="fit-crime-main">
+		<ul class="fit-table-row fit-table-head clearfix">
+			<li class="fit-table-num"><span>案例编号<i>↓</i></span></li>
+			<li class="fit-table-time"><span>监控时间<i>↓</i></span></li>
+			<li class="fit-table-type"><span>类型<i class="triangle"></span></i></li>
+			<li class="fit-table-name">主体名称<i></i></li>
+			<li class="fit-table-code">证件号码<i></i></li>
+			<li class="fit-table-tag">
+				<div id="fit-crime-type" class="fit-crime-type">
+					<div class="fit-crime-input" id="fit-crime-input"><span>涉罪类型</span><i class="triangle"></i></div>
+					<ul>
+						<li data-id="all" class="disabled">全部</li>
+						<li data-id="5">网络赌博</li>
+						<li data-id="2">网络贩毒</li>
+						<li data-id="3">恐怖融资</li>
+						<li data-id="4">电信诈骗</li>
+						<li data-id="1">非法传销</li>
+						<li data-id="6">地下钱庄</li>
+						<li data-id="0">走私犯罪</li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+		<div id="fit-tmpl">
+		</div>
+	</div>
+	<script src="./dist/bundle.js"></script>
+</body>
+</html>
